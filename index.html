@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Rupee Collector</title>
+  <link rel="shortcut icon" href="./assets/images/favicon.gif"/>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css"> 
+
+  <!-- Fonts from Google -->
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default">
+      <div class="navbar-header">
+      	<img alt="triforce" src="./assets/images/triforce.png">
+      	<div id="gamestatus">Choose a rupee!</div>
+      </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="col-md-12">
+
+	  	<!-- Rupee area -->
+		<div class="row">
+		<div class="col-md-12">
+		  <div id="rupees">
+		  	<img id="green" alt="green" src="./assets/images/green.png">
+		  	<img id="red" alt="red" src="./assets/images/red.png">
+		  	<img id="blue" alt="blue" src="./assets/images/blue.png">
+		  	<img id="silver" alt="silver" src="./assets/images/silver.png">
+		  	<br>
+		  	<br>
+		  </div> 
+		</div>
+		</div>
+
+    </div>
+
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Number to Match</h3>
+        </div>
+
+        <div class="panel-body">
+          <p id="matchnumber">-</p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Your Total</h3>
+        </div>
+
+        <div class="panel-body">
+          <p id="totalscore">-</p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Wins</h3>
+        </div>
+
+        <div class="panel-body">
+          <p id="wins">-</p> 
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Losses</h3>
+        </div>
+
+        <div class="panel-body">
+          <p id="losses">-</p> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Directions</h3> 
+        </div>
+
+        <div class="panel-body">
+          <p>You will be given a random number at the start of this game.<br>
+          <p>There are four crystals. By clicking on a crystal you will add a specific amount of points to your total score.<br>
+          <p>You win the game by matching your total score to the random number.<br>
+          <p>You lose tha game if your total score goes above the random number.<br>
+          <p>The value of each crystal is hidden from you until you click on it.<br>
+          <p>Each time the game starts, the game will change the values of each crystal.<br>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--
+  <div class="container">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Enemies Defeated</h3> 
+        </div>
+
+        <div class="panel-body">
+          <p id="Defeated">(defeated enemies go here)</p> 
+        </div>
+      </div>
+    </div>
+  </div>
+-->
+
+  <div class="col-md-12">
+  	<div class="row">
+		<footer class="footer">
+	   		<div class="container">
+	   			<p>© Copyright 2017 Daniel Ryne Lucio</p>
+	    	</div>
+		</footer>
+  	</div>
+  </div>
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- my JavaScript File  -->
+  <script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+</body>
+
+</html>
